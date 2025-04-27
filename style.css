@@ -222,7 +222,10 @@ gap: 50px;
     .home-section{
       padding-top: 36px;
     }
-  
+    .home-image img{
+    height: 200px;
+    width: 200px;
+  }
     .home-text h1 {
       font-size: 32px;
     }
