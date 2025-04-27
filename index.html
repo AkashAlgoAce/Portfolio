@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- HEADER SECTION  -->
+
+  <header>
+    <div class="container">
+      <div class="logo">MyPortfolio</div>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+        </ul>
+      </nav>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </div>
+    <!-- <div class="theme-toggle" id="theme-toggle">
+      <span class="sun">&#9728;</span>
+      <span class="moon">&#9790;</span>
+    </div> -->
+    </div>
+  </header>
+
+
+
+<!-- MAIN SECTION  -->
+
+  <main>
+
+<!-- HOME SECTION  -->
+
+    <section id="home" class="home-section">
+      <div class="home-container">
+        <div class="home-text">
+          <h1>Hello, I'm <span class="highlight">Akash</span></h1>
+          <p>I’m a passionate Frontend Developer crafting clean and user-friendly web experiences. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quia veritatis corrupti magnam eaque nemo nulla dolores aperiam, dignissimos sunt!</p>
+          <a href="your-resume.pdf" class="btn" download>Download Resume</a>
+        </div>
+        <div class="home-image">
+          <img src="images/linkedin profile (3).jpg" alt="Your Photo or Illustration">
+        </div>
+      </div>
+    </section>
+
+<!-- SKILLS SECTION  -->
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <!-- Skill Item -->
+          <div class="skill-item">
+            <img src="images/html img.jpg" alt="HTML" />
+            <p>HTML5</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/css img.jpg" alt="CSS" />
+            <p>CSS3</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/js img.jpg" alt="JavaScript" />
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/react img.jpg" alt="JavaScript" />
+            <p>React</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/node img.jpg" alt="JavaScript" />
+            <p>Node.js</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/express img.jpg" alt="JavaScript" />
+            <p>Express.js</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/mongo img.jpg" alt="JavaScript" />
+            <p>MongoDB</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/sql img.jpg" alt="JavaScript" />
+            <p>MySQL</p>
+          </div>
+         
+         
+          <!-- Add more skill-item blocks below as needed -->
+        </div>
+      </section>
+
+<!-- PROJECTS SECTION  -->
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container" id="projects-container">
+          <!-- JS will inject project cards here -->
+        </div>
+      </section>
+
+<!-- CONTACT FORM SECTION -->
+
+<section id="contact">
+    <div class="contact-container">
+      <h2 class="section-title">Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" name="from_name" placeholder="Your Name" required />
+        <input type="email" id="email" name="from_email" placeholder="Your Email" required />
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <p id="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION  -->
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <h3>Akash's Portfolio</h3>
+        <p>&copy; <span id="year"></span> Akash. All Rights Reserved.</p>
+      </div>
+  
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-social">
+        <h4>Connect with Me</h4>
+        <div class="social-icons">
+          <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <button id="scrollToTopBtn" title="Go to top">&#8679;</button>
+  </footer>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
